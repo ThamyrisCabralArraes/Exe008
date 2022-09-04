@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formatação de texto</title>
+    <style> 
+    mark {
+        background-color:cornflowerblue;
+    }
+
+/* o mark em cima serve para todo o texto */
+    </style>
 </head>
 <body>
     <h1>Principais formataçoes</h1>
@@ -15,6 +22,15 @@
     <p>Temos um termo em <i>italico</i>  usando a tag i (sem semantica) </p>
     <p>Nessa frase temos um <em>termo em destaque</em> usando a tag EH (Com semantica</p>
     <!-- Usar com semantica -->
-
+    <h2>Texto marcado</h2>
+    <p>Podemos criar <mark style="background-color:cornflowerblue ;"> tambem um texto </mark> marcado usando a tag mark - *marca texto, escolhi a cor usando CSS</p>
+    <h2>Texto grande e texto pequeno</h2>
+    <p>Criando um texto com <big>letras grandes</big> e <small>letras pequenas</small></p> <!-- big não se usa mais, small ainda se usa --> 
+    <br>
+    <h2>texto deletado</h2>
+    <p>Podemos marcar um <del>texto como excliuido</del> para indicar que ele deve ser lido, mas não considerado</p>
+    <h2>texto inserido </h2>
+    <p>Podemos marcar um <ins>texto como inserido</ins> para dar enfase e indicar que ele foi adicionado depois</p>
+    <p>existe tambem a tag u para sublinhar que é nao semantica </p>
 </body>
 </html>
